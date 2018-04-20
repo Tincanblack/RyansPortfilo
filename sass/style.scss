@@ -349,9 +349,6 @@ header {
 	@include pad {	
 		width: 48%;
 	}
-	@include mobile {
-		width: 98%;
-	}
 }
 
 .contact {

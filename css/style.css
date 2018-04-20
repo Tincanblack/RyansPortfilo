@@ -572,11 +572,6 @@ header .copyright {
     width: 48%;
   }
 }
-@media (max-width: 568px) {
-  .case-content {
-    width: 98%;
-  }
-}
 
 .contact {
   background-image: url(../img/background-contact.jpg);
