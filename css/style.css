@@ -245,6 +245,11 @@ header {
 header.active {
   left: 0;
 }
+@media (max-width: 568px) {
+  header {
+    padding-top: 130px;
+  }
+}
 header #header-menu {
   margin-bottom: 50px;
 }
@@ -301,8 +306,8 @@ header .copyright {
 #nav-toggle {
   cursor: pointer;
   padding: 20px 15px;
-  left: 35px;
-  top: 50px;
+  left: 20px;
+  top: 20px;
   width: 50px;
   height: 50px;
   background: rgba(0, 0, 0, 0.5);
@@ -401,7 +406,12 @@ header .copyright {
 .banner-wrapper .banner-content h1 {
   font-size: 5em;
   font-weight: bold;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
+}
+@media (max-width: 568px) {
+  .banner-wrapper .banner-content h1 {
+    font-size: 15vw;
+  }
 }
 .banner-wrapper .banner-content p {
   min-height: 150px;
