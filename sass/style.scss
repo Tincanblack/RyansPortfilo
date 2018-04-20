@@ -159,29 +159,16 @@ header {
 	background-attachment: fixed;
 }
 
-.keyVision {
-	background-image: url(../img/background-index.jpg);
-	background-size: cover;
-}
-
-.mySkill {
-	background-image: url(../img/background-skill.jpg);
-	background-size: cover;
-}
-
-.contact {
-	background-image: url(../img/background-contact.jpg);
-	background-size: cover;
-}
-
-.aboutField, .myCase {
-	background-image: url(../img/light-background.jpg);
-}
-
 .container-inner-field {
 	height: auto;
-	@include mobile {
-		display: block !important;
+}
+
+@include pad {
+	.mySkill, .contact {
+		.fp-tableCell {
+			display: block;
+		}
+		
 	}
 }
 
@@ -199,6 +186,11 @@ header {
 			font-weight: normal;
 		}
 	}
+}
+
+.keyVision {
+	background-image: url(../img/background-index.jpg);
+	background-size: cover;
 }
 
 .banner-wrapper {
@@ -223,6 +215,10 @@ header {
 	#banner-source {
 		display: none;
 	}
+}
+
+.aboutField, .myCase {
+	background-image: url(../img/light-background.jpg);
 }
 
 .about-content {
@@ -255,6 +251,11 @@ header {
 			margin-bottom: 1.5em;
 		}
 	}
+}
+
+.mySkill {
+	background-image: url(../img/background-skill.jpg);
+	background-size: cover;
 }
 
 .skill-wrapper {
@@ -345,6 +346,11 @@ header {
 	@include mobile {
 		width: 98%;
 	}
+}
+
+.contact {
+	background-image: url(../img/background-contact.jpg);
+	background-size: cover;
 }
 
 .contact-content {
