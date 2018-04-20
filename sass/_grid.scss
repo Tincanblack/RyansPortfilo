@@ -1,0 +1,58 @@
+// grid system
+@mixin grid($col-number,$col-gutter) {
+    width: ($width - $col-gutter*($col-number - 1) ) / $col-number;
+    margin-right: $col-gutter;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+        &:nth-child(#{$col-number}n) {
+        margin-right: 0;
+    }
+}
+
+@mixin col($col, $sum) {
+	width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	@media only screen and (min-width: 750px) {
+		width: percentage($col/$sum);
+	}
+}
+
+// breakpoint
+
+@mixin desktop-wide {
+	@media (max-width: 1920px) {
+		@content
+	}
+}
+
+@mixin desktop {
+	@media (max-width: 1280px) {
+		@content
+	}
+}
+
+@mixin laptop {
+	@media (max-width: 1366px) {
+		@content
+	}
+}
+
+@mixin pad {
+	@media (max-width: 768px) {
+		@content
+	}
+}
+
+@mixin mobile {
+	@media (max-width: 568px) {
+		@content
+	}
+}
+
+@mixin iphone5 {
+	@media (max-width: 320px) {
+		@content
+	}
+}

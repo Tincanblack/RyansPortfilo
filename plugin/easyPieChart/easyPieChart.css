@@ -1,0 +1,79 @@
+.piechart-holder  , .custom-skillbar-holder{
+ 	padding-bottom: 10px;
+	float:left;
+	width:100%;
+	position:relative;
+    min-height: 295px;
+}
+.piechart-holder h4 {
+    font-size: 1.3em;
+    /*text-transform: uppercase;*/
+}
+.chart {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.piechart {
+    text-align: center;
+    position: relative;
+	padding-bottom:20px;
+}
+.percent {
+    display: inline-block;
+    font-size: 21px;
+    line-height: 152px;
+    z-index: 2;
+}
+.percent:after {
+    content: '%';
+    margin-left: 0.1em;
+    font-size: .8em;
+	font-weight:800;
+}
+ .percent{
+	color:#000;
+}
+.angular {
+    margin-top: 100px;
+}
+.angular .chart {
+    margin-top: 0;
+}
+.skills-des {
+	float:left;
+	width:100%;
+	margin:10px 0;
+	color:#000;
+	font-weight:bold;
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+}
+
+.skills-des h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.skills-des ul {
+    line-height: 1.5em;
+    font-weight: normal;
+    /*text-align: justify;*/
+    font-family: 'Montserrat','微軟正黑體';
+    margin-bottom: 10px;
+}
+.skill-bar-percent {
+	float:right;
+	font-size:16px;
+	margin-top:13px;
+	padding-bottom:6px;
+}
