@@ -283,6 +283,10 @@ header {
 	}
 }
 
+.case-wrapper {
+	margin: 15px 0;
+}
+
 .case-content {
 	width: 31.33333%;
 	margin: 1%;
@@ -349,11 +353,18 @@ header {
 	@include pad {	
 		width: 48%;
 	}
+	@include mobile {
+		width: 98%;
+	}
 }
 
 .contact {
 	background-image: url(../img/background-contact.jpg);
 	background-size: cover;
+}
+
+.contact-wrapper {
+	margin: 15px 0;
 }
 
 .contact-content {
@@ -398,6 +409,6 @@ header {
 		float: none;
 		display: block;
 		min-height: 0;
-		margin: 1%;
+		margin: 2% 1%;
 	}
 }

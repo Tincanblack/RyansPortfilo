@@ -505,6 +505,10 @@ header .copyright {
   }
 }
 
+.case-wrapper {
+  margin: 15px 0;
+}
+
 .case-content {
   width: 31.33333%;
   margin: 1%;
@@ -572,10 +576,19 @@ header .copyright {
     width: 48%;
   }
 }
+@media (max-width: 568px) {
+  .case-content {
+    width: 98%;
+  }
+}
 
 .contact {
   background-image: url(../img/background-contact.jpg);
   background-size: cover;
+}
+
+.contact-wrapper {
+  margin: 15px 0;
 }
 
 .contact-content {
@@ -622,6 +635,6 @@ header .copyright {
     float: none;
     display: block;
     min-height: 0;
-    margin: 1%;
+    margin: 2% 1%;
   }
 }
