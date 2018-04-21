@@ -472,9 +472,20 @@ header .copyright {
   font-weight: bold;
   margin-bottom: 0.75em;
 }
-.about-content .about-des p {
+.about-content .about-des > p {
   line-height: 2em;
   margin-bottom: 1.5em;
+}
+.about-content .about-des .tag-cloud p {
+  margin-bottom: 15px;
+}
+.about-content .about-des .tag-cloud a {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background: #292929;
+  color: #fff;
+  padding: 10px 15px;
 }
 
 .mySkill {

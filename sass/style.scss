@@ -252,9 +252,22 @@ header {
 			font-weight: bold;
 			margin-bottom: 0.75em;
 		}
-		p {
+		>p {
 			line-height: 2em;
 			margin-bottom: 1.5em;
+		}
+		.tag-cloud {
+			p {
+				margin-bottom: 15px;
+			}
+			a {
+				display: inline-block;
+				margin-right: 5px;
+				margin-bottom: 5px;
+				background: $theme-color;
+				color: $white;
+				padding: 10px 15px;
+			}
 		}
 	}
 }
