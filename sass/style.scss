@@ -291,6 +291,14 @@ header {
 	width: 31.33333%;
 	margin: 1%;
 	float: left;
+	h3 {
+		color: $theme-color;
+		display: none;
+		font-size: 20px;
+		font-weight: bold;
+		margin: 10px 0; 
+		text-align: center;
+	}
 	.case-box {
 		position: relative;
 		margin: auto;
@@ -355,6 +363,9 @@ header {
 	}
 	@include mobile {
 		width: 98%;
+		h3 {
+			display: block;
+		}
 	}
 }
 

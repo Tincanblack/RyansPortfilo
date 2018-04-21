@@ -514,6 +514,14 @@ header .copyright {
   margin: 1%;
   float: left;
 }
+.case-content h3 {
+  color: #292929;
+  display: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: center;
+}
 .case-content .case-box {
   position: relative;
   margin: auto;
@@ -579,6 +587,9 @@ header .copyright {
 @media (max-width: 568px) {
   .case-content {
     width: 98%;
+  }
+  .case-content h3 {
+    display: block;
   }
 }
 
