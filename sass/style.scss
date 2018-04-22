@@ -303,6 +303,7 @@ header {
 .case-content {
 	width: 31.33333%;
 	margin: 1%;
+	min-height: 250px;
 	float: left;
 	h3 {
 		color: $theme-color;
@@ -376,6 +377,7 @@ header {
 	}
 	@include mobile {
 		width: 98%;
+		min-height: 230px;
 		h3 {
 			display: block;
 		}

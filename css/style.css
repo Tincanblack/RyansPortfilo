@@ -523,6 +523,7 @@ header .copyright {
 .case-content {
   width: 31.33333%;
   margin: 1%;
+  min-height: 250px;
   float: left;
 }
 .case-content h3 {
@@ -598,6 +599,7 @@ header .copyright {
 @media (max-width: 568px) {
   .case-content {
     width: 98%;
+    min-height: 230px;
   }
   .case-content h3 {
     display: block;
